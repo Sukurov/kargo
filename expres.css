@@ -166,6 +166,7 @@ body{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     outline: 0;
+    padding-left: 20px;
 }
 .kamaz-esas .inp-div button{
     width: 150px;
@@ -648,6 +649,7 @@ body{
     width: 100%;
     display: flex;
 }
+
 .list-esas .list-soldiv .list-soldiv-alt .list-soldiv-alt-sag span{
     padding-top: 25px;
     display: inline-block;
@@ -989,6 +991,17 @@ body{
     .menu2-esas .navbar-tel{
         display: flex;
     }
+    
+    .menu2-esas .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .menu2-esas .logo img{
+        width: 20%;
+    }
 }
 
 
@@ -1069,8 +1082,8 @@ body{
         width: 70%;
     }
     .kamaz-esas .kamaz-h2{
-        padding-left: 0!important;
-        font-size: 2.2rem!important;
+        padding-left: 10px!important;
+        font-size: 2rem!important;
     }
     .kamaz-esas .inp-div{
         padding-left: 5px;
@@ -1157,6 +1170,9 @@ body{
     .blog-esas .blog-child .blog-div1{
         width: 80%;
     }
+    .kamaz-esas .inp-div button{
+        width: 35%;
+    }
 }
 
 
@@ -1172,25 +1188,33 @@ body{
         align-items: center;
     }
     .list-esas .list-soldiv .list-soldiv-alt img{
-        width: 150px;
-    }
-    .menu2-esas .logo{
         width: 100%;
+        object-fit: cover;
     }
     .menu2-esas .logo img{
-        width: 100%;
+        width: 50%;
     }
     .about-esas .about-sol p{
         font-size: 1.6rem;
-    }
-    .list-esas .list-soldiv p{
-        font-size: 0.7rem;
-        width: 100%;
     }
     .time-esas .time-div-1 .time-div-1-text .sp2{
         font-size: 1.1rem;
     }
     .team-esas .team-metn-div h2{
         font-size: 1.1rem;
+    }
+    .team-esas .team-div{
+        width: 80%;
+    }
+    .list-esas .list-soldiv{
+        width: 100%;
+        text-align: center;
+    }
+    .list-esas .list-soldiv p{
+        font-size: 0.9rem;
+        width: 100%;
+    }
+    .services-esas .services-div-esas .services-div{
+        padding: 80px 0;
     }
 }
